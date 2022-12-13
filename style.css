@@ -73,10 +73,10 @@ select {
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-   scroll-behavior: auto;
+    html:focus-within {
+    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {
@@ -87,6 +87,7 @@ select {
   }
 }
 
+/*General styling*/
 body {
     background-color: var(--clr-neutral-300);
     display: grid;
@@ -118,19 +119,6 @@ article {
     margin-bottom: 1rem;
     font-size: 1.25rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
